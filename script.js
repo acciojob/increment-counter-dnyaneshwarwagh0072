@@ -3,7 +3,7 @@ const incrementButton = document.getElementById('incrementBtn');
 
 let counterValue = 0;
 incrementButton.addEventListener('click', () => {
-    alert(`${counterValue}`);
+    alert(`Un-incremented value: ${counterValue}`);
     counterValue++;
     counterElement.textContent = counterValue;
 });
